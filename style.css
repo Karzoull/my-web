@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  padding: 0;
+  top: 0;
+  text-decoration: none;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+   background-size: cover;
+   font-family: 'Quicksand', sans-serif;
+}
+
+header {
+  background-image: url(image/Capture\ d’écran\ 2024-06-15\ 231740.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  filter: brightness(100%);
+  display: flex;
+  justify-content: space-between;
+}
+
+header .navlist ul {
+  display: flex;
+  margin-top: 50px;
+  margin-right: 100px;
+}
+
+header .navlist ul a {
+  color: white;
+  padding: 25px;
+  font-size: 25px;
+  transition: color 0.5s ease;
+  font-weight: 600;
+}
+
+header .navlist ul a:hover {
+  color: #FFD62E;
+}
+
+header img {
+  margin-left: 100px;
+}
+
+.main {
+  text-align: center;
+  margin-top: 300px;
+  margin-left: -1150px;
+}
+
+.main h1 {
+  color: white;
+  font-size: 53px;
+}
+
+.main p {
+  color: white;
+  padding-top: 25px;
+  font-size: 20px;
+}
+
+.main span {
+  color: #FFD62E;
+}
+
+.main .link {
+  padding-top: 55px;
+}
+
+.main .link a {
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: 100;
+  color: white;
+  transition: color 0.5s ease, background-size 0.5s ease; 
+  background: linear-gradient(90deg, #FFD62E 0%, #FFD62E 100%); 
+  background-position: 0% 100%; 
+  background-size: 0% 100%; 
+  background-repeat: no-repeat;
+}
+
+header .link a:hover {
+  color: black; 
+  background-size: 100% 100%; 
+  font-weight: 700;
+  border-color: transparent;
+}
+
+.about {
+  height: 90VH;
+}
+
+.about .title {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.about .title p {
+  font-size: 60px;
+  font-weight: 900;
+  color: #3F3A5B;
+  padding-top: 40px;
+}
+
+.about .container {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.about .container p {
+  color: #a2a1a3;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.about .text {
+   align-items: center;
+   justify-content: center;
+   margin-top: 100px;
+   margin-left: 150px;
+}
+
+.about .text p {
+  font-size: 22px;
+  color: #a2a1a3;
+  font-weight: 600;
+  line-height: 45px;
+}
+
+.about .image {
+  margin-top: -430px;
+  margin-left: 950px;
+}
+
+.about .btn {
+  margin-top: -15px;
+}
+
+.about .btn a {
+   background-color: #3D3B57;
+   color: white;
+   font-size: 25px;
+   padding: 15px 30px;
+   border-radius: 20px;
+}
+
+.about .offers {
+  margin-top: 80px;
+}
+
+.about .offers .contend {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -700px;
+}
+
+.about .offers .contend .special {
+  font-size: 70px;
+  color: #FFD62E;
+}
+
+.about .offers .contend .p {
+  padding-top: 30px;
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.about .offers .contend .cartes {
+  display: flex;
+  justify-content: center;
+  margin-top: -35px;
+}
+
+.about .offers .contend .cartes  img {
+  padding: 90px;
+}
+
+.about .cartes h1 {
+  color: white;
+  margin-top: -60px;
+  font-size: 35px;
+}
+
+.about .cartes p {
+  font-size: 17px;
+  color: white;
+  font-weight: 100;
+  margin-top: 20px;
+}
+
+.about .cartes .prix p {
+  color: #FFD62E;
+  font-size: 27px;
+  font-weight: 900;
+}
+
+.menu {
+  height: 130vh;
+}
+
+.menu .li {
+  margin-top: -50px;
+}
+
+.menu img {
+  border-radius: 70px;
+}
+.menu .texte {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 770px;
+}
+
+.menu .texte h1 {
+  color: #3D3B57;
+  font-size: 59px;
+  font-weight: 900;
+}
+
+.menu .texte p {
+  color: #a2a1a3;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.menu .liste {
+  display: flex;
+  flex: wrap;
+  justify-content: center;
+}
+
+.menu .liste li {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: -80px;
+}
+
+.menu .liste .cart1 {
+  padding-left: 100px;
+  padding-top: 70px;
+  flex: 0 0 calc(25% - 20px);
+  margin: 10px;
+}
+
+.menu .liste .cart1 .prize p {
+  color: #FFD62E;
+  font-weight: 900;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.menu .liste .cart1 .card-contend p {
+  margin-top: 22px;
+  font-size : 17px;
+  font-weight: 600;
+}
+
+.menu .liste2 {
+  display: flex;
+  flex: wrap;
+  justify-content: center;
+}
+
+
+.menu .liste2 li {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: -100px;
+}
+
+.menu .liste2 .cart2 {
+  padding-left: 130px;
+  padding-top: 50px;
+}
+
+.menu .liste2 .cart2 .prize p {
+  color: #FFD62E;
+  font-weight: 900;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.menu .liste2 .cart2 .card-contend p {
+  margin-top: 22px;
+  font-size : 17px;
+  font-weight: 600;
+}
+
+.menu .liste3 {
+  display: flex;
+  flex: wrap;
+  justify-content: center;
+  margin-left: -120px;
+  margin-top: -50px;
+}
+
+.menu .liste3 .cart3 {
+  padding-left: 150px;
+  padding-top: 50px;
+}
+
+.menu .liste3 li {
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.menu .liste3 .cart3 .prize p {
+  color: #FFD62E;
+  font-weight: 900;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.menu .liste3 .cart3 .card-contend p {
+  margin-top: 22px;
+  font-size : 17px;
+  font-weight: 600;
+}
+
+.menu .click {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.menu .click a {
+  background-color: #FFD62E;
+  color: white;
+  padding: 17px 35px;
+  font-size: 22px;
+  border-radius: 20px;
+  font-weight: 900px;
+  transition: color 0.7s ease;
+}
+
+.menu .click a:hover {
+  background-color: #3D3B57;
+}
+
+.yellow {
+  font-family: 'Poppins', sans-serif;
+  height: 34vh;
+}
+
+.yellow li {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: -290px;
+  margin-left: -150px;
+}
+
+.yellow .café {
+  padding-left: 170px;
+}
+
+.yellow .café  h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 35px;
+  margin-top: 15px;
+}
+
+.yellow .café  p {
+  color: white;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.gallery {
+  height: 100vh;
+  text-align: center;
+}
+
+.gallery h1 {
+  margin-top: -800px ;
+  color: white;
+  font-size: 50px;
+}
