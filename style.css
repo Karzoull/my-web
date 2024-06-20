@@ -409,8 +409,8 @@ header .link a:hover {
 }
 
 .gallery .img-gallery img {
-  width: 420px;
-  height: 300px;
+  width: 390px;
+  height: 280px;
   border-radius: 15px;
   margin: 40px;
   opacity: 0.8;
@@ -421,5 +421,107 @@ header .link a:hover {
 }
 
 .footer {
-  height: 100vh;
+  height: 65vh;
+  margin-top: 70px;
+  margin-left: 300px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer .contact h1 {
+ font-size: 47px;
+ font-weight: 500;
+ color: #3F3B53;
+}
+
+.footer .contact p {
+  font-size: 20px;
+  color: #a2a1a3;
+  padding-top: 15px;
+}
+
+.footer i {
+  color: #FFD62E;
+  
+}
+
+.footer .contact2 h1{
+  color: #3D3B57;
+  font-size: 47px;
+  font-weight: 600;
+}
+
+.footer .contact2 p {
+  color: #a2a1a3;
+  font-size: 20px;
+}
+
+.footer .con2 {
+  margin-top: 40px;
+}
+
+.footer .follow {
+  margin-top: 40px;
+}
+
+.footer .follow h1 {
+  color: #3D3B57;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.icon-container {
+  margin-left: -20px;
+}
+
+.icon-container i {
+  color: #3D3B57;
+  font-size: 40px;
+  padding-left: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.icon-container i:hover {
+  color: #e4b95b;
+}
+
+.footer .formulaire {
+  text-align: center;
+  margin-top: -560px;
+  margin-left: 760px;
+}
+
+form {
+  width: 10%;
+}
+
+form input,
+textarea {
+  display: block;
+  width: 700%;
+  padding: 20px 15px;
+  margin: 50px 0;
+  border: none;
+  background-color: #f1ebc9;
+}
+
+.footer .btn {
+  background-color: #e4b95b;
+  color: white;
+  cursor: pointer;
+  border-color: transparent;
+  padding: 10px 60px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.footer .btn:hover {
+  background-color: #3D3B57;
+}
+
+.footer button {
+  margin-left: 180px;
+  margin-top: -30px;
 }
